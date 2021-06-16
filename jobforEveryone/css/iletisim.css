@@ -1,0 +1,105 @@
+#iletisim{
+    background: url("../img/city.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#iletisimopak{
+    background-color: rgba(255,255,255,0.4);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#up{
+    color: darkblue;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 9px 12px;
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10p;
+    font-size: 15px;
+    line-height: 1.5px;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#mesaj{
+    height: 300px;
+    padding-top: 15px;
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: center;
+}
+
+#adresbaslik{
+    font-size: 30px;
+    color: black;
+}
+
+.adresp{
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 1000;
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}

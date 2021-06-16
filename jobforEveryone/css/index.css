@@ -1,0 +1,116 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute; left: 100px;
+}
+
+ul li a:hover{
+    opacity: 0.5;
+}
+
+.btn-warning:hover{
+    background-color: white;
+    border-color: white;
+    opacity: 0.8;
+}
+
+.container-sm{
+    width: 70% !important;
+}
+
+header{
+    position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	width: 100%;
+	left:0;
+	right: 0;
+	z-index: 99999;
+}
+
+/** Content**/
+
+#anasayfa{
+    height: 600px;
+    background-image: url("../img/işbul.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+}
+
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 55px;
+    color: darkblue;
+    text-shadow: 0px 1px 1px black;
+}
+
+.container2{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #445c6e;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: darkblue;
+    font-weight: 600;
+    float:left;
+}
+
+#sag{
+    float: right;
+    width: 770px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}

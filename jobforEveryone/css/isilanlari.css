@@ -1,0 +1,47 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute; left: 100px;
+}
+
+ul li a:hover{
+    opacity: 0.5;
+}
+
+.btn-warning:hover{
+    background-color: white;
+    border-color: white;
+    opacity: 0.8;
+}
+
+.container-sm{
+    width: 70% !important;
+}
+
+header{
+    position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	width: 100%;
+	left:0;
+	right: 0;
+	z-index: 99999;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+/**Search Bar**/
+.search-bar {
+    border-radius: 10rem;
+    background:#212529;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 15%);
+}
+
+.row{
+    position: relative !important;
+    margin: auto !important;
+}
